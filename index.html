@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Clone</title>
+    <link rel="shortcut icon" type="image/png" href="./img/fb-favicon.png">
+    <script src="https://kit.fontawesome.com/293abf4b96.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <nav>
+        <ul class="left-nav-list">
+            <li class="fb-nav-icon"><a href="#"><i class="fab fa-facebook fa-2x"></i>
+                </a></li>
+            <li class="search">
+                <span class="fas fa-search"></span>
+                <input type="text" placeholder="Search Facebook">
+            </li>
+        </ul>
+
+        <ul class="middle-nav-list">
+            <li><a href="#"><i class="fas fa-home"></i></a></li>
+            <li><a href="#"><i class="fas fa-user-friends"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fas fa-store"></i></a></li>
+            <li><a href="#"><i class="fas fa-users"></i></a></li>
+        </ul>
+
+        <ul class="right-nav-list">
+            <li class="profile-img"><a href="#"><img src="./img/about-selfie.jpg" alt="profile-img"></a>
+            </li>
+            <li><a href="#">Tien Dung</a></li>
+            <li class="gray-border-icon"><a href="#"><i class="fas fa-plus"></i></a></li>
+            <li class="gray-border-icon"><a href="#"><i class="fab fa-facebook-messenger"></i></a></li>
+            <li class="gray-border-icon"><a href="#"><i class="fas fa-bell"></i></a></li>
+            <li class="gray-border-icon"><a href="#"><i class="fas fa-arrow-down"></i></a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Left Sidebar -->
+        <div class="left-sidebar">
+            <div class="left-sb-img-container pb-30">
+                <img src="./img/about-selfie.jpg" alt="Nick" class="left-sb-img">
+                <p class="left-sb-p">Nguyen Tien Dung</p>
+            </div>
+            <div class="voting-info pb-30">
+                <i><i class="fas fa-person-booth"></i>
+                </i>
+                <p class="left-sb-p">Voting Information Center</p>
+            </div>
+            <div class="pages flex-col">
+                <i class="fas fa-flag"></i>
+                <p class="left-sb-p">Pages</p>
+            </div>
+            <ul class="nine-new">
+                <li><span>&bull;</span> 9 + new</li>
+            </ul>
+
+            <div class="friends pb-30 flex-col">
+                <i class="fas fa-user-friends"></i>
+                <p class="left-sb-p">Friends</p>
+            </div>
+
+            <div class="messanger pb-30  flex-col">
+                <i class="fab fa-facebook-messenger"></i>
+                <p class="left-sb-p">Messanger</p>
+            </div>
+
+            <div class="fundraisers pb-30  flex-col">
+                <div class="heart-container">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <p class="left-sb-p">Fundraisers</p>
+            </div>
+            <div class="marketplace pb-30  flex-col">
+                <i class="fas fa-store"></i>
+                <p class="left-sb-p">Marketplace</p>
+            </div>
+            <div class="watch pb-30 flex-col">
+                <i class="fab fa-youtube"></i>
+                <p class="left-sb-p">Watch</p>
+            </div>
+            <div class="see-more pb-30  flex-col">
+                <div class="chevron-down-container">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <p class="left-sb-p">See More</p>
+            </div>
+            <div class="bottom-line"></div>
+
+            <div class="pb-30">
+                <p class="left-sb-p">Your Shortcuts</p>
+            </div>
+
+            <div class="priority-people pb-30  flex-col">
+                <i class="fas fa-users"></i>
+                <p class="left-sb-p">Priority Peoples</p>
+            </div>
+
+            <div class="big-blue pb-30  flex-col">
+                <i class="fas fa-football-ball"></i>
+                <p class="left-sb-p">BigBlueWreckingCrew</p>
+            </div>
+
+            <footer class="left-sidebar-footer">
+                <a href="#">Privacy</a> <span>&bull;</span> <a href="#">Terms</a> <span>&bull;</span> <a
+                    href="#">Advertising</a>
+                <span>&bull;</span> <a href="#">Ad Choices</a> <span>&bull;</span> <br> <a href="#">Cookies</a>
+                <span>&bull;</span> <a href="#">More</a> <span>&bull;</span>
+                <a href="#"></a> <span>Facebook &copy; 2020</span>
+            </footer>
+
+        </div>
+
+        <!-- Middle Feed -->
+
+        <div class="feed">
+            .<div class="container">
+                <div class="story-preview">
+                    <div class="user-story">
+                        <img src="./img/about-selfie.jpg" alt="">
+                        <div class="create-a-story">
+                            <div class="plus-bg-blue">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                            <p>Create a <br> story</p>
+                        </div>
+                    </div>
+                    <div class="friend-story">
+                        <div class="friend-story-img">
+                            <img src="./img/contact-2.jpg" alt="">
+                        </div>
+                        <p class="friend-story-p">Siri Kumar</p>
+                    </div>
+                    <div class="friend-story-2">
+                        <div class="friend-story-img">
+                            <img src="./img/contact-1.jpg" alt="">
+                        </div>
+                        <p class="friend-story-p">Monica Andrews</p>
+                    </div>
+                    <div class="friend-story-3">
+                        <div class="friend-story-img">
+                            <img src="./img/contact-3.jpg" alt="">
+                        </div>
+                        <p class="friend-story-p">Lupe Gersbach</p>
+                    </div>
+                    <div class="friend-story-4">
+                        <div class="friend-story-img">
+                            <img src="./img/contact-4.jpg" alt="">
+                        </div>
+                        <p class="friend-story-p">Matt Johnson</p>
+                    </div>
+                    <div class="friend-story-5">
+                        <div class="friend-story-img">
+                            <img src="./img/contact-5.jpg" alt="">
+                        </div>
+                        <p class="friend-story-p">Brady Andrews</p>
+                    </div>
+                </div>
+                <div class="arrow-bg">
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                </div>
+                <div class="create-a-post">
+                    <div class="post-box">
+                        <img src="./img/about-selfie.jpg" alt="">
+                        <input type="text" placeholder="What's on your mind, Tien Dung?">
+                    </div>
+                    <div class="bottom-line-post-box"></div>
+                    <div class="post-box-icons">
+                        <ul>
+                            <li><a href="#"><i class="fas fa-video"></i> Live Video</a></li>
+                            <li><a href="#"><i class="far fa-image"></i>
+                                    Photo/Video</a></li>
+                            <li><a href="#"><i class="far fa-laugh-squint"></i>
+                                    Feeling/Activity</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="video-chat">
+                    <ul class="video-chat-one">
+                        <li><a href="#"><i class="fas fa-video"></i> Rooms</a></li>
+                        <li class="light-gray-text"><a href="#">Video chat with friends</a></li>
+                        <li class="light-gray-text"><a href="#"><i class="fas fa-info-circle"
+                                    title="Learn How Rooms Work"></i></a></li>
+                    </ul>
+                    <ul class="video-chat-two">
+                        <li class="blue-text"><a href="#">Create Video Chat</a></li>
+                    </ul>
+                </div>
+                <div class="video-chat-contacts">
+                    <a href="#"><img src="./img/user-chat-contact.jpg" alt="" class="contact-video-chat"><i
+                            class="fas fa-plus"></i></a>
+                    <a href="#"><img src="./img/contact-1.jpg" alt="" class="contact-video-chat"></a>
+                    <a href="#"><img src="./img/contact-3.jpg" alt="" class="contact-video-chat"></a>
+                    <a href="#"><img src="./img/contact-2.jpg" alt="" class="contact-video-chat"></a>
+                    <a href="#"><img src="./img/contact-4.jpg" alt="" class="contact-video-chat"></a>
+                </div>
+            </div>
+            <div class="post-feed">
+                <div class="top-post-info">
+                    <div class="logo">
+                        <img src="./img/d-backs-logo.jpg" alt="" class="post-logo">
+                    </div>
+                    <div>
+                        <p>Arizona Diamondbacks <i class="fas fa-check-circle"></i>
+                        </p>
+                        <small>2h &bull; <i class="fas fa-globe-americas"></i>
+                        </small>
+                    </div>
+                    <div class="ellipsis">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div> <!-- End of top post info -->
+                <p class="post-p"> <span class="blue-text">#DbacksWin</span> the season Finale!</p>
+
+                <img src="./img/d-backs-win.jpg" alt="" class="post-feed-img">
+                <div class="post-icon-stats">
+                    <ul class="post-icons">
+                        <li><a href="#"><i class="far fa-thumbs-up"></i></a></li>
+                        <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                        <li><a href="#"><i class="far fa-grin-hearts"></i></a></li>
+                        <li><a href="#">1.7K</a></li>
+                    </ul>
+                    <ul class="post-stats">
+                        <li><a href="#">45</a></li>
+                        <li><a href="#">Comments</a></li>
+                        <li><a href="#">183</a></li>
+                        <li><a href="#">Shares</a></li>
+                    </ul>
+                </div>
+                <div class="bottom-line-post-box"></div>
+                <div class="user-post-interaction">
+                    <ul>
+                        <li><a href="#"><i class="far fa-thumbs-up gray"></i> Like</a></li>
+                        <li><a href="#"><i class="far fa-comment"></i> Comment</a></li>
+                        <li><a href="#"><i class="fas fa-share"></i> Share</a></li>
+                        <li><a href="#"><img src="./img/about-selfie.jpg" alt="" class="post-interaction-img"><i
+                                    class="fas fa-caret-down"></i>
+                            </a></li>
+                    </ul>
+                </div>
+            </div> <!-- End of post feed -->
+
+            <!-- Post 2 -->
+
+            <div class="post-feed">
+                <div class="top-post-info">
+                    <div class="logo">
+                        <img src="./img/ny-giants-logo.jpg" alt="" class="post-logo">
+                    </div>
+                    <div>
+                        <p>New York Giants <i class="fas fa-check-circle"></i>
+                        </p>
+                        <small>46m &bull; <i class="fas fa-globe-americas"></i>
+                        </small>
+                    </div>
+                    <div class="ellipsis">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div> <!-- End of top post info -->
+                <p class="post-p">Giants Now: The news around the NFC East going into Week 4</p>
+
+                <img src="./img/mobile-giants-post-image.jpeg" alt="" class="post-feed-img">
+                <div class="desktop-post-description">
+                    <small>GIANTS.COM</small>
+                    <p>Ginats Now: The news of the day for Giants fans</p>
+                    <small>The news of the say for Giants fans on Tuesday, Se...</small>
+                </div>
+                <div class="post-icon-stats">
+                    <ul class="post-icons">
+                        <li><a href="#"><i class="far fa-thumbs-up"></i></a></li>
+                        <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                        <li><a href="#"><i class="far fa-grin-hearts"></i></a></li>
+                        <li><a href="#">1.1K</a></li>
+                    </ul>
+                    <ul class="post-stats">
+                        <li><a href="#">101</a></li>
+                        <li><a href="#">Comments</a></li>
+                        <li><a href="#">204</a></li>
+                        <li><a href="#">Shares</a></li>
+                    </ul>
+                </div>
+                <div class="bottom-line-post-box"></div>
+                <div class="user-post-interaction">
+                    <ul>
+                        <li><a href="#"><i class="far fa-thumbs-up gray"></i> Like</a></li>
+                        <li><a href="#"><i class="far fa-comment"></i> Comment</a></li>
+                        <li><a href="#"><i class="fas fa-share"></i> Share</a></li>
+                        <li><a href="#"><img src="./img/about-selfie.jpg" alt="" class="post-interaction-img"><i
+                                    class="fas fa-caret-down"></i>
+                            </a></li>
+                    </ul>
+                </div>
+            </div> <!-- End of post feed -->
+
+            <!-- Post 3 -->
+
+            <div class="post-feed">
+                <div class="top-post-info">
+                    <div class="logo">
+                        <img src="./img/suns-post-logo.png" alt="" class="post-logo">
+                    </div>
+                    <div>
+                        <p>Phoenix Suns <i class="fas fa-check-circle"></i>
+                        </p>
+                        <small>1h &bull; <i class="fas fa-globe-americas"></i>
+                        </small>
+                    </div>
+                    <div class="ellipsis">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div> <!-- End of top post info -->
+                <p class="post-p"> It's not too late to submit your <span
+                        class="blue-text">#HispanicHeritageMonth</span> t-shirt design for a chance to be part of our
+                    upcoming retail
+                    collection! <br> <br>
+                    The first 30 submissions will receive a Los Suns shirt and the grand prize winner will receive a Los
+                    Suns jersey and
+                    more!
+                    Enter now... <a href="#"><strong>See More</strong></a></p>
+
+                <img src="./img/suns-post-img.jpg" alt="" class="post-feed-img">
+                <div class="post-icon-stats">
+                    <ul class="post-icons">
+                        <li><a href="#"><i class="far fa-thumbs-up"></i></a></li>
+                        <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                        <li><a href="#"><i class="far fa-grin-hearts"></i></a></li>
+                        <li><a href="#">203</a></li>
+                    </ul>
+                    <ul class="post-stats">
+                        <li><a href="#">12</a></li>
+                        <li><a href="#">Comments</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">Shares</a></li>
+                    </ul>
+                </div>
+                <div class="bottom-line-post-box"></div>
+                <div class="user-post-interaction">
+                    <ul>
+                        <li><a href="#"><i class="far fa-thumbs-up gray"></i> Like</a></li>
+                        <li><a href="#"><i class="far fa-comment"></i> Comment</a></li>
+                        <li><a href="#"><i class="fas fa-share"></i> Share</a></li>
+                        <li><a href="#"><img src="./img/about-selfie.jpg" alt="" class="post-interaction-img"><i
+                                    class="fas fa-caret-down"></i>
+                            </a></li>
+                    </ul>
+                </div>
+            </div> <!-- End of post feed -->
+
+
+            <!-- Post 4 -->
+
+            <div class="post-feed">
+                <div class="top-post-info">
+                    <div class="logo">
+                        <img src="./img/fox-news-logo.jpg" alt="" class="post-logo">
+                    </div>
+                    <div>
+                        <p>Fox News <i class="fas fa-check-circle"></i>
+                        </p>
+                        <small>2h &bull; <i class="fas fa-globe-americas"></i>
+                        </small>
+                    </div>
+                    <div class="ellipsis">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div> <!-- End of top post info -->
+                <p class="post-p"> Dallas Mavericks owner Mark Cuban donated $50,000 to each of the families of the two
+                    Los Angeles County sheriff’s
+                    deputies who were wounded in an ambush attack last month.</p>
+
+                <img src="./img/fox-news-post-img.jpeg" alt="" class="post-feed-img">
+                <div class="desktop-post-description">
+                    <small>FOXNEWS.COM</small>
+                    <p>Mark Cuban donates $50,000 to Los Angeles deputies wounded in ambush attack</p>
+                </div>
+                <div class="post-icon-stats">
+                    <ul class="post-icons">
+                        <li><a href="#"><i class="far fa-thumbs-up"></i></a></li>
+                        <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                        <li><a href="#"><i class="far fa-grin-hearts"></i></a></li>
+                        <li><a href="#">51k</a></li>
+                    </ul>
+                    <ul class="post-stats">
+                        <li><a href="#">4.4k</a></li>
+                        <li><a href="#">Comments</a></li>
+                        <li><a href="#">2.1k</a></li>
+                        <li><a href="#">Shares</a></li>
+                    </ul>
+                </div>
+                <div class="bottom-line-post-box"></div>
+                <div class="user-post-interaction">
+                    <ul>
+                        <li><a href="#"><i class="far fa-thumbs-up gray"></i> Like</a></li>
+                        <li><a href="#"><i class="far fa-comment"></i> Comment</a></li>
+                        <li><a href="#"><i class="fas fa-share"></i> Share</a></li>
+                        <li><a href="#"><img src="./img/about-selfie.jpg" alt="" class="post-interaction-img"><i
+                                    class="fas fa-caret-down"></i>
+                            </a></li>
+                    </ul>
+                </div>
+            </div> <!-- End of post feed -->
+
+            <!-- post-5 -->
+
+            <div class="post-feed">
+                <div class="top-post-info">
+                    <div class="logo">
+                        <img src="./img/wikibuy-logo-2.png" alt="" class="post-logo">
+                    </div>
+                    <div>
+                        <p>Wikibuy<i class="fas fa-check-circle"></i>
+                        </p>
+                        <small>Sponsered &bull; <i class="fas fa-globe-americas"></i>
+                        </small>
+                    </div>
+                    <div class="ellipsis">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div> <!-- End of top post info -->
+                <p class="post-p">Buy Apple devices, without paying Apple prices
+                </p>
+
+                <img src="./img/wikibuy-post-img.jpg" alt="" class="post-feed-img">
+                <div class="desktop-post-description">
+                    <small>WIKIBUY.COM</small>
+                    <p>How to avoid paying full price for Apple - without buying used... <a href="#"><strong>Learn
+                                More</strong></a></p>
+                </div>
+                <div class="post-icon-stats">
+                    <ul class="post-icons">
+                        <li><a href="#"><i class="far fa-thumbs-up"></i></a></li>
+                        <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                        <li><a href="#"><i class="far fa-grin-hearts"></i></a></li>
+                        <li><a href="#">8.2K</a></li>
+                    </ul>
+                    <ul class="post-stats">
+                        <li><a href="#">2.8k</a></li>
+                        <li><a href="#">Comments</a></li>
+                        <li><a href="#">870</a></li>
+                        <li><a href="#">Shares</a></li>
+                    </ul>
+                </div>
+                <div class="bottom-line-post-box"></div>
+                <div class="user-post-interaction">
+                    <ul>
+                        <li><a href="#"><i class="far fa-thumbs-up gray"></i> Like</a></li>
+                        <li><a href="#"><i class="far fa-comment"></i> Comment</a></li>
+                        <li><a href="#"><i class="fas fa-share"></i> Share</a></li>
+                        <li><a href="#"><img src="./img/about-selfie.jpg" alt="" class="post-interaction-img"><i
+                                    class="fas fa-caret-down"></i>
+                            </a></li>
+                    </ul>
+                </div>
+            </div> <!-- End of post feed -->
+
+        </div>
+        </div>
+        <!-- Right Sidebar -->
+        <div class="right-sidebar">
+            <h3>Sponsored</h3>
+
+            <div class="sponser-ad">
+                <img src="./img/wolfs-tooth.jpg" alt="">
+                <p>Looking for a dogfood that packs a punch? <br> <small>wolfstootfoods.com</small></p>
+            </div>
+
+            <div class="sponser-ad">
+                <img src="./img/youtube-red.jpg" alt="">
+                <p>Ready to go ad free? Sign up today! <br> <small>www.youtube.com/red</small></p>
+            </div>
+
+            <div class="bottom-line"></div>
+
+            <div class="right-sidebar-nav">
+                <ul class="flex-col">
+                    <li>Contacts</li>
+                </ul>
+                <ul>
+                    <li><i class="fas fa-video"></i></li>
+                    <li><i class="fas fa-search"></i></li>
+                    <li><i class="fas fa-ellipsis-h"></i>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contact-list">
+
+                <div class="contact pb-15">
+                    <img src="./img/contact-3.jpg" alt="">
+                    <i class="fas fa-circle"></i>
+                    <p>Lupe Gersbach</p>
+                </div>
+
+                <div class="contact pb-15">
+                    <img src="./img/contacts-1.jpg" alt="">
+                    <i class="fas fa-circle"></i>
+                    <p>Alex Smith</p>
+                </div>
+
+                <div class="contact pb-15">
+                    <img src="./img/contacts-2.jpg" alt="">
+                    <i class="fas fa-circle"></i>
+                    <p>Shelby Black</p>
+                </div>
+
+                <div class="contact pb-15">
+                    <img src="./img/contacts-3.jpg" alt="">
+                    <i class="fas fa-circle"></i>
+                    <p>Jamie Chung</p>
+                </div>
+
+                <div class="contact pb-15">
+                    <img src="./img/contacts-4.jpg" alt="">
+                    <i class="fas fa-circle"></i>
+                    <p>Ed Norton</p>
+                </div>
+
+                <div class="contact pb-15">
+                    <img src="./img/contacts-5.jpg" alt="">
+                    <i class="fas fa-circle"></i>
+                    <p>Joe Green</p>
+                </div>
+
+                <div class="contact pb-15">
+                    <img src="./img/contacts-6.jpg" alt="">
+                    <i class="fas fa-circle"></i>
+                    <p>Lyndsey Smith</p>
+                </div>
+
+                <div class="contact pb-15">
+                    <img src="./img/contacts-7.jpg" alt="">
+                    <i class="fas fa-circle"></i>
+                    <p>Sammy Joe</p>
+                </div>
+
+                <div class="contact pb-15">
+                    <img src="./img/contacts-8.jpg" alt="">
+                    <i class="fas fa-circle"></i>
+                    <p>Sophia Lorenzo</p>
+                </div>
+
+                <div class="contact pb-15">
+                    <img src="./img/contacts-9.jpg" alt="">
+                    <i class="fas fa-circle"></i>
+                    <p>Jimmy Beard</p>
+                </div>
+                <div class="contact pb-15">
+                    <img src="./img/contacts-10.jpg" alt="">
+                    <i class="fas fa-circle"></i>
+                    <p>Howard Seymour</p>
+                </div>
+                <div class="new-message">
+                    <i class="fas fa-edit"></i>
+                </div>
+
+                <div class="bottom-line"></div>
+
+                <h3 class="pb-3-">Group Conversations</h3>
+
+                <div class=" create-new-group flex-col">
+                    <div class="plus-bg">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <p>Create New Group</p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Mobile/App Version -->
+
+    <div id="mobile-version">
+
+        <div class="mobile-nav">
+            <ul>
+                <li class="mobile-logo">facebook</li>
+            </ul>
+
+            <ul>
+                <li class="gray-bg"><a href="#"><i class="fas fa-search"></i></a></li>
+                <li class="gray-bg"><a href="#"><i class="fab fa-facebook-messenger"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="mobile-post">
+            <div>
+                <img src="./img/about-selfie.jpg" alt="" class="mobile-profile-img-sm">
+
+            </div>
+            <input type="text" placeholder="What's on your mind?">
+        </div>
+
+        <div class="mobile-user-options">
+            <div class="mobile-user-icons">
+                <i class="fas fa-eye"></i>
+
+                Live
+            </div>
+
+
+            <div class="mobile-user-icons images-icon">
+                <i class="far fa-images"></i>
+                Photo
+            </div>
+
+
+            <div class="mobile-user-icons">
+                <i class="fas fa-video"></i>
+
+                Room
+            </div>
+        </div>
+
+
+        <div class="mobile-video-chat">
+            <ul>
+                <li><a href="#"><i class="fas fa-video"></i></a></li>
+            </ul>
+
+            <ul>
+                <li><a href="#">Create Video <br> Chat</a></li>
+            </ul>
+
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="./img/contacts-2.jpg" alt="" class="mobile-video-chat-pic">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/contacts-3.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/contacts-4.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/contacts-5.jpg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="mobile-stories">
+            <div class="mobile-story-img-1">
+                <i class="fas fa-plus-circle"></i>
+                <p>Add to Story</p>
+            </div>
+            <div class="mobile-story-img-2">
+                <p>Jasime<br>Hall</p>
+            </div>
+            <div class="mobile-story-img-3">
+                <p>Connie Wong</p>
+            </div>
+            <div class="mobile-story-img-4">
+                <p>James Finch</p>
+            </div>
+            <div class="mobile-story-img-5">
+                <p>Joe Green</p>
+            </div>
+            <div class="mobile-story-img-6">
+                <p>Mia Flores</p>
+            </div>
+        </div>
+
+        <div class="mobile-feed">
+            <div class="mobile-post-header-layout">
+                <div class="mobile-post-logo">
+                    <img src="./img/d-backs-logo.jpg" alt="">
+                </div>
+                <div class="mobile-post-header">
+                    <div>
+                        <p>Arizona Diamondbacks <i class="fas fa-check-circle"></i>
+                        </p>
+                        <small>2h &bull; <i class="fas fa-globe-americas"></i>
+                        </small>
+                    </div>
+                </div>
+                <div class="mobile-post-elipsis">
+                    <div class="ellipsis">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div>
+            </div>
+            <p class="mobile-post-content"><span class="mobile-blue-text">#DbacksWin</span> the season Finale!</p>
+            <div class="mobile-post-img">
+                <img src="./img/d-backs-win.jpg" alt="">
+            </div>
+
+
+            <div class="mobile-post-icon-stats">
+                <ul class="mobile-post-icons">
+                    <li><a href="#"><i class="far fa-thumbs-up"></i></a></li>
+                    <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                    <li><a href="#"><i class="far fa-grin-hearts"></i></a></li>
+                    <li><a href="#">1.7K</a></li>
+                </ul>
+                <ul class="mobile-post-stats">
+                    <li><a href="#">45</a></li>
+                    <li><a href="#">Comments</a></li>
+                    <li><a href="#">183</a></li>
+                    <li><a href="#">Shares</a></li>
+                    <li><a href="#"><img src="./img/about-selfie.jpg" alt="" class="mobile-post-interaction-img"><i
+                                class="fas fa-caret-down"></i>
+                </ul>
+            </div>
+            <div class="mobile-bottom-line"></div>
+            <div class="mobile-user-post-interaction">
+                <ul>
+                    <li class="gray-thumb"><a href="#"><i class="far fa-thumbs-up gray"></i> Like</a></li>
+                    <li><a href="#"><i class="far fa-comment"></i> Comment</a></li>
+                    <li><a href="#"><i class="fas fa-share"></i> Share</a></li>
+                </ul>
+            </div>
+        </div><!-- End Mobile Post 1-->
+
+        <div class="mobile-feed">
+            <div class="mobile-post-header-layout">
+                <div class="mobile-post-logo">
+                    <img src="./img/ny-giants-logo.jpg" alt="">
+                </div>
+                <div class="mobile-post-header">
+                    <div>
+                        <p>New York Giants <i class="fas fa-check-circle"></i>
+                        </p>
+                        <small>46m &bull; <i class="fas fa-globe-americas"></i>
+                        </small>
+                    </div>
+                </div>
+                <div class="mobile-post-elipsis">
+                    <div class="ellipsis">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div>
+            </div>
+            <p class="mobile-post-content">Giants Now: The news around the NFC East going into Week 4</p>
+            <div class="mobile-post-img">
+                <img src="./img/mobile-giants-post-image.jpeg" alt="">
+            </div>
+            <div class="post-description">
+                <small>GIANTS.COM</small>
+                <p>Ginats Now: The news of the day for Giants fans</p>
+                <small>The news of the say for Giants fans on Tuesday, Se...</small>
+            </div>
+
+            <div class="mobile-post-icon-stats">
+                <ul class="mobile-post-icons">
+                    <li><a href="#"><i class="far fa-thumbs-up"></i></a></li>
+                    <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                    <li><a href="#"><i class="far fa-grin-hearts"></i></a></li>
+                    <li><a href="#">1.1K</a></li>
+                </ul>
+                <ul class="mobile-post-stats">
+                    <li><a href="#">101</a></li>
+                    <li><a href="#">Comments</a></li>
+                    <li><a href="#">204</a></li>
+                    <li><a href="#">Shares</a></li>
+                    <li><a href="#"><img src="./img/about-selfie.jpg" alt="" class="mobile-post-interaction-img"><i
+                                class="fas fa-caret-down"></i>
+                </ul>
+            </div>
+            <div class="mobile-bottom-line"></div>
+            <div class="mobile-user-post-interaction">
+                <ul>
+                    <li class="gray-thumb"><a href="#"><i class="far fa-thumbs-up gray"></i> Like</a></li>
+                    <li><a href="#"><i class="far fa-comment"></i> Comment</a></li>
+                    <li><a href="#"><i class="fas fa-share"></i> Share</a></li>
+                </ul>
+            </div>
+        </div><!-- End Mobile Post 2 -->
+
+        <div class="mobile-feed">
+            <div class="mobile-post-header-layout">
+                <div class="mobile-post-logo">
+                    <img src="./img/suns-post-logo.png" alt="">
+                </div>
+                <div class="mobile-post-header">
+                    <div>
+                        <p>Phoenix Suns <i class="fas fa-check-circle"></i>
+                        </p>
+                        <small>1h &bull; <i class="fas fa-globe-americas"></i>
+                        </small>
+                    </div>
+                </div>
+                <div class="mobile-post-elipsis">
+                    <div class="ellipsis">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div>
+            </div>
+            <p class="mobile-post-content">It's not too late to submit your <span
+                    class="blue-text">#HispanicHeritageMonth</span> t-shirt design for a chance to be
+                part of our
+                upcoming retail
+                collection! <br> <br>
+                The first 30 submissions will receive a Los Suns shirt and the grand prize winner will receive a Los
+                Suns jersey and
+                more!
+                Enter now... <a href="#"><strong>See More</strong></a></p>
+            <div class="mobile-post-img">
+                <img src="./img/suns-post-img.jpg" alt="">
+            </div>
+            <div class="mobile-post-icon-stats">
+                <ul class="mobile-post-icons">
+                    <li><a href="#"><i class="far fa-thumbs-up"></i></a></li>
+                    <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                    <li><a href="#"><i class="far fa-grin-hearts"></i></a></li>
+                    <li><a href="#">203</a></li>
+                </ul>
+                <ul class="mobile-post-stats">
+                    <li><a href="#">12</a></li>
+                    <li><a href="#">Comments</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">Shares</a></li>
+                    <li><a href="#"><img src="./img/about-selfie.jpg" alt="" class="mobile-post-interaction-img"><i
+                                class="fas fa-caret-down"></i>
+                </ul>
+            </div>
+            <div class="mobile-bottom-line"></div>
+            <div class="mobile-user-post-interaction">
+                <ul>
+                    <li class="gray-thumb"><a href="#"><i class="far fa-thumbs-up gray"></i> Like</a></li>
+                    <li><a href="#"><i class="far fa-comment"></i> Comment</a></li>
+                    <li><a href="#"><i class="fas fa-share"></i> Share</a></li>
+                </ul>
+            </div>
+        </div><!-- End Mobile feed -->
+
+        <div class="mobile-feed">
+            <div class="mobile-post-header-layout">
+                <div class="mobile-post-logo">
+                    <img src="./img/fox-news-logo.jpg" alt="">
+                </div>
+                <div class="mobile-post-header">
+                    <div>
+                        <p>Fox News <i class="fas fa-check-circle"></i>
+                        </p>
+                        <small>1h &bull; <i class="fas fa-globe-americas"></i>
+                        </small>
+                    </div>
+                </div>
+                <div class="mobile-post-elipsis">
+                    <div class="ellipsis">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div>
+            </div>
+            <p class="mobile-post-content">Dallas Mavericks owner Mark Cuban donated $50,000 to each of the families of
+                the two Los Angeles County sheriff’s
+                deputies who were wounded in an ambush attack last month.</p>
+            <div class="mobile-post-img">
+                <img src="./img/fox-news-post-img.jpeg" alt="">
+            </div>
+            <div class="post-description">
+                <small>FOXNEWS.COM</small>
+                <p>Mark Cuban donates $50,000 to Los Angeles deputies wounded in ambush attack</p>
+            </div>
+
+            <div class="mobile-post-icon-stats">
+                <ul class="mobile-post-icons">
+                    <li><a href="#"><i class="far fa-thumbs-up"></i></a></li>
+                    <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                    <li><a href="#"><i class="far fa-grin-hearts"></i></a></li>
+                    <li><a href="#">51K</a></li>
+                </ul>
+                <ul class="mobile-post-stats">
+                    <li><a href="#">4.4k</a></li>
+                    <li><a href="#">Comments</a></li>
+                    <li><a href="#">2.1k</a></li>
+                    <li><a href="#">Shares</a></li>
+                    <li><a href="#"><img src="./img/about-selfie.jpg" alt="" class="mobile-post-interaction-img"><i
+                                class="fas fa-caret-down"></i>
+                </ul>
+            </div>
+            <div class="mobile-bottom-line"></div>
+            <div class="mobile-user-post-interaction">
+                <ul>
+                    <li class="gray-thumb"><a href="#"><i class="far fa-thumbs-up gray"></i> Like</a></li>
+                    <li><a href="#"><i class="far fa-comment"></i> Comment</a></li>
+                    <li><a href="#"><i class="fas fa-share"></i> Share</a></li>
+                </ul>
+            </div>
+        </div><!-- End Mobile feed -->
+        <div class="mobile-feed">
+            <div class="mobile-post-header-layout">
+                <div class="mobile-post-logo">
+                    <img src="./img/wikibuy-logo-2.png" alt="">
+                </div>
+                <div class="mobile-post-header">
+                    <div>
+                        <p>Wikibuy <i class="fas fa-check-circle"></i>
+                        </p>
+                        <small>Sponsered &bull; <i class="fas fa-globe-americas"></i>
+                        </small>
+                    </div>
+                </div>
+                <div class="mobile-post-elipsis">
+                    <div class="ellipsis">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div>
+            </div>
+            <p class="mobile-post-content">Buy Apple devices, without paying Apple prices
+            </p>
+            <div class="mobile-post-img">
+                <img src="./img/wikibuy-post-img.jpg" alt="">
+            </div>
+            <div class="post-description">
+                <small>WIKIBUY.COM</small>
+                <p>How to avoid paying full price for Apple - without buying used... <a href="#"><strong>Learn
+                            More</strong></a></p>
+            </div>
+
+            <div class="mobile-post-icon-stats">
+                <ul class="mobile-post-icons">
+                    <li><a href="#"><i class="far fa-thumbs-up"></i></a></li>
+                    <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                    <li><a href="#"><i class="far fa-grin-hearts"></i></a></li>
+                    <li><a href="#">8.2K</a></li>
+                </ul>
+                <ul class="mobile-post-stats">
+                    <li><a href="#">2.8K</a></li>
+                    <li><a href="#">Comments</a></li>
+                    <li><a href="#">870</a></li>
+                    <li><a href="#">Shares</a></li>
+                    <li><a href="#"><img src="./img/about-selfie.jpg" alt="" class="mobile-post-interaction-img"><i
+                                class="fas fa-caret-down"></i>
+                </ul>
+            </div>
+            <div class="mobile-bottom-line"></div>
+            <div class="mobile-user-post-interaction last-post">
+                <ul>
+                    <li class="gray-thumb"><a href="#"><i class="far fa-thumbs-up gray"></i> Like</a></li>
+                    <li><a href="#"><i class="far fa-comment"></i> Comment</a></li>
+                    <li><a href="#"><i class="fas fa-share"></i> Share</a></li>
+                </ul>
+            </div>
+
+            <div class="sticky-mobile">
+                <div>
+                    <a href="#"><i class="fas fa-home"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="#"><i class="far fa-user-circle"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="#"><i class="fas fa-users"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="#"><i class="far fa-bell"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="#"><i class="fas fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+</body>
+</div><!-- End Mobile feed -->
+</div>
+<!-- End mobile container -->
+
+</html>
